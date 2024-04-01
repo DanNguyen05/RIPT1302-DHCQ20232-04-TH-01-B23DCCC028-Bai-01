@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e59696;
+    font-family: Arial, sans-serif;
+}
+
+.clock {
+    display: flex;
+}
+
+.segment {
+    font-size: 3em;
+    font-weight: bold;
+    color: #f1ebeb;
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+}
